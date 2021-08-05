@@ -34,9 +34,11 @@ export default function HederNavigation(props) {
             <AppBar position="static">
                 <Toolbar style={{ flexDirection: 'row' }} >
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                        <div className={classes.image}>
-                            <img src={image} alt="My icon" />
-                        </div>
+                        <a href="https://my-portafolio-six.vercel.app/" >
+                            <div className={classes.image}>
+                                <img src={image} alt="My icon" />
+                            </div>
+                        </a>
                     </IconButton>
 
                     <Typography variant="h6" className={classes.title}>
@@ -45,9 +47,11 @@ export default function HederNavigation(props) {
 
 
                     <IconButton edge="start" className={classes.menuButton} color="default" aria-label="menu">
-                        <div className={classes.image2}>
-                            <img src={reactImage} alt="My icon" />
-                        </div>
+                        <a href="https://es.reactjs.org/" >
+                            <div className={classes.image2}>
+                                <img src={reactImage} alt="My icon" />
+                            </div>
+                        </a>
                     </IconButton>
 
                     <IconButton edge="start" className={classes.menuButton} color="default" aria-label="menu">

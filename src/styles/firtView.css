@@ -1,0 +1,114 @@
+.firtViewContainer {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 80.3vh;
+  flex-direction: column;
+}
+
+.containerModal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fondoAlert {
+  width: 90%;
+  height: 90%;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(14, 18, 80, 0.37);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: myModal 0.5s linear 0s 1 normal;
+}
+
+@keyframes myModal {
+  0% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.containerInputs {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #20242a, #272b32);
+}
+
+.botonAdd {
+  width: 90%;
+}
+
+.containerList {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.cardTask {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #20242a, #272b32);
+  box-shadow: 20px 20px 60px #1f2228, -20px -20px 60px #292e36;
+}
+
+.adorno {
+  width: 5px;
+  height: 100%;
+  background-color: azure;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.adornoTrue {
+    width: 5px;
+    height: 100%;
+    background-color: #3f51b5;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+
+.containerDataTask{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    color: white;
+}
+
+.containerButons{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.botonCard{
+    max-width: 100px;
+    max-height: 30px;
+}
+
+/* #3c3e44  24282f */
